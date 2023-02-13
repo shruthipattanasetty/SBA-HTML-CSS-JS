@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Music Academy</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 300px;
+            margin-top: 10%;
+        }
+        input, select {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" name="myForm" method="POST">
+        <a class="navbar-brand" href="#"><img src = "images/musicnote.PNG"></a>	
+        <input type="text" name="Name"  placeholder="Firstname" pattern="^[a-zA-Z]+"
+               title="Please start username with a letter from a-z "
+               required/><br>
+
+        <input type="text" name="Name"  placeholder="Lastname" pattern="^[a-zA-Z]+"
+               title="Please start username with a letter from a-z "
+               required/><br>
+
+        <input type="text" name="Name"  placeholder="username" pattern="^[a-zA-Z]+"
+               title="Please start username with a letter from a-z "
+               required/> <br>
+
+       <input type="password" name="password" id="password" placeholder="Password" required/><br>
+
+        <input type="email" name="EmailTwo"  placeholder="Email"
+               required/><br>
+    
+        <input type="tel" name="tel" min="10" maxlength="10" id="telID" placeholder="Phone number" pattern="\d{10}" title="ten digits only" required/><br>
+    
+
+        <select name="AgeGroup" id="AgeId" required>
+            <option value=""> Choose your AgeGroup</option>
+            <option value="5-10">5-10</option>
+            <option value="11-15">11-15</option>
+            <option value="15+">15+</option>
+        </select><br>
+
+        <select name="Location" id="LocationId" required>
+            <option value=""> Choose your Location</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Detroit">Detroit</option>
+            <option value="Houston">Houston</option>
+            <option value="San Francisco">San Francisco</option>
+            <option value="Seattle">Seattle</option>
+        </select><br>
+    
+        <select name="Instrument" id="Id" required>
+            <option value=""> Choose your Instrument</option>
+            <option value="Piano">Piano</option>
+            <option value="Guitar">Guitar</option>
+            <option value="Trumpet">Trumpet</option>
+        </select><br>
+    
+        
+    
+        <input type="submit" value="Submit" />
+         
+    </form>
+</body>
+</html>

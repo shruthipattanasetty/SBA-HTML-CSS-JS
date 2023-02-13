@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Academy Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!--icon-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+        <style>
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                height: 300px;
+                margin-top: 10%;
+            }
+            input, select {
+                width: 200px;
+            }
+    
+        </style>
+
+</head>
+<!-- ----------- -->
+<!-- <title>W3.JS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script> -->
+<!-- //------- -->
+<script src="sample.js"></script>
+
+
+    
+
+    <section id="nav-bar"> <!--to add navigation menu and logo -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/musicnote.PNG"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href ="#" class="nav-link" onclick="return home()">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href ="#" class="nav-link" onclick="return service()">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href ="#" class="nav-link" onclick="return about()">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href='./display.html' class="nav-link" onclick="return about()">Instructors</a>
+                          </li>
+                        <!--       <li class="nav-item">
+          <a class="nav-link disabled" href="#">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Contact Us</a>
+        </li> ---->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!----------------------------------Services---------------------------->
+        <section id="services">
+            <div class=" container  text-center">
+                <h1 class="title">WHAT WE TEACH?</h1>
+                <div class="row text-center">
+                    <div class="col-md-4 services">
+                        <img src="images/piano.PNG" class="service-img">
+                        <h4>Piano</h4>
+                        <body>
+                            
+                        <p>Subscribe on our YouTube Channels for more updates!</p>
+                    </div>
+                    <div class="col-md-4 services">
+                        <img src="images/guitar.PNG" class="service-img">
+                        <h4>Guitar</h4>
+                        <p>Subscribe on our YouTube Channels for more updates!</p>
+                    </div>
+                    <div class="col-md-4 services">
+                        <img src="images/trumpet.PNG" class="service-img">
+                        <h4>Trumpet</h4>
+                        <p>Subscribe on our YouTube Channels for more updates!</p>
+                    </div>
+                </div>
+                <!-- <button type="button" class="btn btn-primary">Register hello</button> -->
+                <!-- <p class="registerbtn" button type="button" ></p><a href='./register.html'>Register</a></button> -->
+
+                <!-- <button type="button" ><a href='./register.html' class = "btn btn-primary">Register</a></button> -->
+                 
+
+        </section>
+
+        <!-- <div class="table">
+            <table id="myList" class="w3-table-all">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                    <th>Instrument</th>
+                </tr>
+    
+                <tr w3-repeat="customers">
+                    <td>{{firstname}}</td>
+                    <td>{{lastname}}</td>
+                    <td>{{username}}</td>
+                    <td>{{email}}</td>
+                    <td>{{phone}}</td>
+                    <td>{{age}}</td>
+                    <td>{{location}}</td>
+                    <td>{{instrument}}</td>
+                   
+                </tr>
+            </table> 
+            </div>  -->
+        
+
+</body>
+<script src ="sample.js"></script>
+</html>

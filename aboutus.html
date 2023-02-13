@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Academy Template</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+<!--icon-->	<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<script src="sample.js"></script> 
+<body>
+	
+<section id="nav-bar"> <!--to add navigation menu and logo -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src = "images/musicnote.PNG"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href ="#" class="nav-link" onclick="return home()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href ="#" class="nav-link" onclick="return service()">Services</a>
+        </li>
+      <li class="nav-item">
+          <a href ="#" class="nav-link" onclick="return about()">Contact Us</a>
+        </li>
+		<li class="nav-item">
+			<a  href='./display.html' class="nav-link" onclick="return about()">Instructors</a>
+		  </li>
+   <!--       <li class="nav-item">
+          <a class="nav-link disabled" href="#">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Contact Us</a>
+        </li> ---->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--------------------------About Us----------------------------------->
+
+<section id = "about-us">
+	
+	<!-- <button type="button"  ><a href='./display.html' class = "btn btn-secondary">Instructors Details</a></button>  -->
+	<div class = "container">
+		<h1 class ="title text-center">Locations</h1>
+		<div class = "row">
+			<div class = "col-md-12 about-us">
+			<p class ="about-title"> Contact Details</p>
+			<div style = "float:left;width:20%;">
+				<strong>CHICAGO OFFICE</strong>
+				<P>555 E Chicago Street <br>
+				Chicago, IL 60606 <br>
+				Ph:123-456-7890</P>
+			</div>
+			<div style = "float:left;width:20%;">
+				<strong>DETROIT OFFICE</strong>
+				<P>222 N Michigan Ave <br>
+				Detroit, MI 48201 <br>
+				Ph:234-123-5678</P>
+			</div>
+			<div style = "float:left;width:20%;">
+				<strong>HOUSTON OFFICE</strong>
+				<P>111 N Houston Dr <br>
+				Houston, TX 77001 <br>
+				Ph:345-234-1234</P>
+			</div>
+			<div style = "float:left;width:20%;">
+				<strong>SAN FRANCISCO OFFICE</strong>
+				<P>999 W San diego Ave <br>
+				San Francisco, CA 94016 <br>
+				Ph:456-222-5678</P>
+			</div>
+			<div style = "float:left;width:20%;">
+				<strong>SEATTLE OFFICE</strong>
+				<P>777 S Seattle Ave <br>
+				Seattle, WA 98101 <br>
+				Ph:987-654-3210</P>
+			</div>
+			</div>
+			<div class = "col-md-6">
+				<!--<img src = "images/network.png" class = "img-fluid"> -->
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
+</body>
+</html>
